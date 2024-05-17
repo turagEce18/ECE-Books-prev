@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: rgb(209, 230, 253); 
+}
+
+
+
+h1{
+   color:#00203FFF;
+}
+
+
+.box, .box:active, .box:visited{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 25px;
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    border: 1px #fff;
+    border-radius: 10px;
+    box-shadow: 8px 10px 25px -6px rgba(0,0,0,0.62); 
+    -webkit-box-shadow: 8px 10px 25px -6px rgba(0,0,0,0.62);
+    transition: 0.2s;
+}
+
+a{
+    color: #00203FFF;
+}
+
+.box a:hover{
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+ }
+
+.box:hover{
+    background-color: #00203FFF;
+    transition: 0.2s;
+}
+
+.box:hover a{
+    display: block;
+    height: 100px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+
+.flex-row{
+    margin-top: 55px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.flex-row > div {
+    margin-bottom: 25px;
+}
+
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-top: 5px;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
